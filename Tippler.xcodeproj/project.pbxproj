@@ -3,20 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3355355245F2599000CE648 /* SwiftPKPaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3355354245F2599000CE648 /* SwiftPKPaymentButton.swift */; };
+		B3355358245F2F63000CE648 /* ApplePayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3355357245F2F63000CE648 /* ApplePayController.swift */; };
+		B335535A245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3355359245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift */; };
+		B335535E245F37CC000CE648 /* StripeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335535D245F37CC000CE648 /* StripeService.swift */; };
+		B34CEE9C245F4BE4005DC0C1 /* ApplePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CEE9B245F4BE4005DC0C1 /* ApplePayService.swift */; };
 		B38C1DA0245EF75200612649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1D9F245EF75200612649 /* AppDelegate.swift */; };
 		B38C1DA2245EF75200612649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DA1245EF75200612649 /* SceneDelegate.swift */; };
 		B38C1DA4245EF75200612649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DA3245EF75200612649 /* ContentView.swift */; };
 		B38C1DA6245EF75600612649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C1DA5245EF75600612649 /* Assets.xcassets */; };
 		B38C1DA9245EF75600612649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C1DA8245EF75600612649 /* Preview Assets.xcassets */; };
 		B38C1DAC245EF75600612649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38C1DAA245EF75600612649 /* LaunchScreen.storyboard */; };
+		B38C1DB5245EFFB200612649 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DB4245EFFB200612649 /* NoNetworkView.swift */; };
+		B38C1DB7245F0A6600612649 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DB6245F0A6600612649 /* MainView.swift */; };
+		B38C1DB9245F0B0D00612649 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DB8245F0B0D00612649 /* LogoView.swift */; };
+		B38C1DBB245F0B5000612649 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DBA245F0B5000612649 /* DataService.swift */; };
+		B38C1DBE245F0E6100612649 /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DBD245F0E6100612649 /* BusinessListView.swift */; };
+		B38C1DC2245F201300612649 /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DC1245F201300612649 /* PayView.swift */; };
+		FF2D4B9395EBA38FE4D46449 /* Pods_Tippler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A862FEA95693205A75A9A /* Pods_Tippler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B38C1D9C245EF75200612649 /* Tippler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5A862FEA95693205A75A9A /* Pods_Tippler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tippler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A8705B8C88B9FBAE0C8E18 /* Pods-Tippler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler.release.xcconfig"; path = "Target Support Files/Pods-Tippler/Pods-Tippler.release.xcconfig"; sourceTree = "<group>"; };
+		B3355354245F2599000CE648 /* SwiftPKPaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPKPaymentButton.swift; sourceTree = "<group>"; };
+		B3355357245F2F63000CE648 /* ApplePayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayController.swift; sourceTree = "<group>"; };
+		B3355359245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPKPaymentAuthorizationViewController.swift; sourceTree = "<group>"; };
+		B335535D245F37CC000CE648 /* StripeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeService.swift; sourceTree = "<group>"; };
+		B34CEE9A245F4919005DC0C1 /* Tippler Chicago.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tippler Chicago.entitlements"; sourceTree = "<group>"; };
+		B34CEE9B245F4BE4005DC0C1 /* ApplePayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayService.swift; sourceTree = "<group>"; };
+		B38C1D9C245EF75200612649 /* Tippler Chicago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tippler Chicago.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38C1D9F245EF75200612649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38C1DA1245EF75200612649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B38C1DA3245EF75200612649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +44,15 @@
 		B38C1DA8245EF75600612649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B38C1DAB245EF75600612649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38C1DAD245EF75600612649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38C1DB4245EFFB200612649 /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
+		B38C1DB6245F0A6600612649 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B38C1DB8245F0B0D00612649 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B38C1DBA245F0B5000612649 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B38C1DBD245F0E6100612649 /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
+		B38C1DC1245F201300612649 /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
+		B5510D60B46FD1D52B9B737D /* Pods-Tippler!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler!.release.xcconfig"; path = "Target Support Files/Pods-Tippler!/Pods-Tippler!.release.xcconfig"; sourceTree = "<group>"; };
+		C793F8F2EA3B9D251A52959D /* Pods-Tippler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler.debug.xcconfig"; path = "Target Support Files/Pods-Tippler/Pods-Tippler.debug.xcconfig"; sourceTree = "<group>"; };
+		DD73B583A9600D0EC5ACB857 /* Pods-Tippler!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler!.debug.xcconfig"; path = "Target Support Files/Pods-Tippler!/Pods-Tippler!.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +60,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2D4B9395EBA38FE4D46449 /* Pods_Tippler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C6C573FAEC9627182B48FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD73B583A9600D0EC5ACB857 /* Pods-Tippler!.debug.xcconfig */,
+				B5510D60B46FD1D52B9B737D /* Pods-Tippler!.release.xcconfig */,
+				C793F8F2EA3B9D251A52959D /* Pods-Tippler.debug.xcconfig */,
+				71A8705B8C88B9FBAE0C8E18 /* Pods-Tippler.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3355356245F2F4A000CE648 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3355354245F2599000CE648 /* SwiftPKPaymentButton.swift */,
+				B3355359245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift */,
+				B3355357245F2F63000CE648 /* ApplePayController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B38C1D93245EF75200612649 = {
 			isa = PBXGroup;
 			children = (
 				B38C1D9E245EF75200612649 /* Tippler */,
 				B38C1D9D245EF75200612649 /* Products */,
+				7C6C573FAEC9627182B48FDA /* Pods */,
+				F899F4BBF3080D71F9C942C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B38C1D9D245EF75200612649 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B38C1D9C245EF75200612649 /* Tippler.app */,
+				B38C1D9C245EF75200612649 /* Tippler Chicago.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +109,12 @@
 		B38C1D9E245EF75200612649 /* Tippler */ = {
 			isa = PBXGroup;
 			children = (
+				B34CEE9A245F4919005DC0C1 /* Tippler Chicago.entitlements */,
+				B3355356245F2F4A000CE648 /* Controllers */,
+				B38C1DBC245F0B5700612649 /* Services */,
+				B38C1DB3245EFF9400612649 /* Views */,
 				B38C1D9F245EF75200612649 /* AppDelegate.swift */,
 				B38C1DA1245EF75200612649 /* SceneDelegate.swift */,
-				B38C1DA3245EF75200612649 /* ContentView.swift */,
 				B38C1DA5245EF75600612649 /* Assets.xcassets */,
 				B38C1DAA245EF75600612649 /* LaunchScreen.storyboard */,
 				B38C1DAD245EF75600612649 /* Info.plist */,
@@ -75,6 +131,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B38C1DB3245EFF9400612649 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B38C1DA3245EF75200612649 /* ContentView.swift */,
+				B38C1DB4245EFFB200612649 /* NoNetworkView.swift */,
+				B38C1DB6245F0A6600612649 /* MainView.swift */,
+				B38C1DB8245F0B0D00612649 /* LogoView.swift */,
+				B38C1DBD245F0E6100612649 /* BusinessListView.swift */,
+				B38C1DC1245F201300612649 /* PayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B38C1DBC245F0B5700612649 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B38C1DBA245F0B5000612649 /* DataService.swift */,
+				B335535D245F37CC000CE648 /* StripeService.swift */,
+				B34CEE9B245F4BE4005DC0C1 /* ApplePayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F899F4BBF3080D71F9C942C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A862FEA95693205A75A9A /* Pods_Tippler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B38C1DB0245EF75600612649 /* Build configuration list for PBXNativeTarget "Tippler" */;
 			buildPhases = (
+				1807AADFEB12496B29972E94 /* [CP] Check Pods Manifest.lock */,
 				B38C1D98245EF75200612649 /* Sources */,
 				B38C1D99245EF75200612649 /* Frameworks */,
 				B38C1D9A245EF75200612649 /* Resources */,
+				F3822F16FA0EC8ED4152C8D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -92,7 +181,7 @@
 			);
 			name = Tippler;
 			productName = Tippler;
-			productReference = B38C1D9C245EF75200612649 /* Tippler.app */;
+			productReference = B38C1D9C245EF75200612649 /* Tippler Chicago.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,14 +230,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1807AADFEB12496B29972E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tippler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3822F16FA0EC8ED4152C8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B38C1D98245EF75200612649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3355358245F2F63000CE648 /* ApplePayController.swift in Sources */,
+				B38C1DB5245EFFB200612649 /* NoNetworkView.swift in Sources */,
+				B38C1DBB245F0B5000612649 /* DataService.swift in Sources */,
+				B38C1DC2245F201300612649 /* PayView.swift in Sources */,
+				B335535E245F37CC000CE648 /* StripeService.swift in Sources */,
+				B335535A245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift in Sources */,
+				B38C1DB9245F0B0D00612649 /* LogoView.swift in Sources */,
 				B38C1DA0245EF75200612649 /* AppDelegate.swift in Sources */,
+				B38C1DBE245F0E6100612649 /* BusinessListView.swift in Sources */,
 				B38C1DA2245EF75200612649 /* SceneDelegate.swift in Sources */,
+				B38C1DB7245F0A6600612649 /* MainView.swift in Sources */,
 				B38C1DA4245EF75200612649 /* ContentView.swift in Sources */,
+				B3355355245F2599000CE648 /* SwiftPKPaymentButton.swift in Sources */,
+				B34CEE9C245F4BE4005DC0C1 /* ApplePayService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,41 +424,51 @@
 		};
 		B38C1DB1245EF75600612649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C793F8F2EA3B9D251A52959D /* Pods-Tippler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tippler/Tippler Chicago.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tippler/Preview Content\"";
 				DEVELOPMENT_TEAM = 6AL74BDQ9V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tippler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tippler Chicago";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B38C1DB2245EF75600612649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A8705B8C88B9FBAE0C8E18 /* Pods-Tippler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tippler/Tippler Chicago.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tippler/Preview Content\"";
 				DEVELOPMENT_TEAM = 6AL74BDQ9V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tippler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tippler Chicago";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
