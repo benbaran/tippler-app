@@ -24,6 +24,7 @@
 		B38C1DBB245F0B5000612649 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DBA245F0B5000612649 /* DataService.swift */; };
 		B38C1DBE245F0E6100612649 /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DBD245F0E6100612649 /* BusinessListView.swift */; };
 		B38C1DC2245F201300612649 /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C1DC1245F201300612649 /* PayView.swift */; };
+		B38ED7512466F25000804FC5 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38ED7502466F25000804FC5 /* GoalView.swift */; };
 		FF2D4B9395EBA38FE4D46449 /* Pods_Tippler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A862FEA95693205A75A9A /* Pods_Tippler.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		B38C1DBA245F0B5000612649 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B38C1DBD245F0E6100612649 /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
 		B38C1DC1245F201300612649 /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
+		B38ED7502466F25000804FC5 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
 		B5510D60B46FD1D52B9B737D /* Pods-Tippler!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler!.release.xcconfig"; path = "Target Support Files/Pods-Tippler!/Pods-Tippler!.release.xcconfig"; sourceTree = "<group>"; };
 		C793F8F2EA3B9D251A52959D /* Pods-Tippler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler.debug.xcconfig"; path = "Target Support Files/Pods-Tippler/Pods-Tippler.debug.xcconfig"; sourceTree = "<group>"; };
 		DD73B583A9600D0EC5ACB857 /* Pods-Tippler!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler!.debug.xcconfig"; path = "Target Support Files/Pods-Tippler!/Pods-Tippler!.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				B38C1DB8245F0B0D00612649 /* LogoView.swift */,
 				B38C1DBD245F0E6100612649 /* BusinessListView.swift */,
 				B38C1DC1245F201300612649 /* PayView.swift */,
+				B38ED7502466F25000804FC5 /* GoalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				B335535E245F37CC000CE648 /* StripeService.swift in Sources */,
 				B335535A245F301E000CE648 /* SwiftPKPaymentAuthorizationViewController.swift in Sources */,
 				B38C1DB9245F0B0D00612649 /* LogoView.swift in Sources */,
+				B38ED7512466F25000804FC5 /* GoalView.swift in Sources */,
 				B38C1DA0245EF75200612649 /* AppDelegate.swift in Sources */,
 				B38C1DBE245F0E6100612649 /* BusinessListView.swift in Sources */,
 				B38C1DA2245EF75200612649 /* SceneDelegate.swift in Sources */,
@@ -439,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
 				PRODUCT_NAME = "Tippler Chicago";
 				SWIFT_VERSION = 5.0;
@@ -464,7 +468,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
 				PRODUCT_NAME = "Tippler Chicago";
 				SWIFT_VERSION = 5.0;

@@ -18,7 +18,10 @@ struct MainView: View {
     
     @State private var businessId: Int = 1
     
+    @State private var weeklyAmount = 0;
+    
     var body: some View {
+        
         
         NavigationView{
             
@@ -26,18 +29,39 @@ struct MainView: View {
                 
                 LogoView().padding(.horizontal)
                 
+                GoalView(amount: self.weeklyAmount)
+                
                 BusinessListView(businesses: self.businesses)
             }
         }
-            
         .onAppear(){
             self.loadBusinesses();
             
         }
         .onReceive(timer, perform: {
             _ in
-            //self.loadBusinesses()
+            self.loadBusinesses()
         })
+        
+        
+        
+        
+        
+    }
+    
+    func loadWeeklyAmount(){
+        
+        DataService.getWeekTips { result in
+            
+            switch result {
+                
+            case .failure(let error):
+                print(error)
+                
+            case .success(let amount):
+                self.weeklyAmount = amount
+            }
+        }
     }
     
     func loadBusinesses(){
@@ -53,6 +77,8 @@ struct MainView: View {
                 self.businesses = businesses
             }
         }
+        
+        loadWeeklyAmount()
     }
 }
 
