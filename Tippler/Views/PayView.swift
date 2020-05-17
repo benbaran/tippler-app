@@ -55,6 +55,8 @@ struct PayView: View {
     
     var businessName: String
     
+    var businessWebsite: String
+    
     @State var paymentSheetShown = false;
     
     @State var selected = 3;
@@ -65,6 +67,25 @@ struct PayView: View {
         VStack{
             
             Text("\(businessName)").bold().font(Font.largeTitle).padding()
+            
+            if(!self.businessWebsite.isEmpty){
+                Button(
+                    action: {
+                        
+                        
+                        let url: NSURL = URL(string: self.businessWebsite)! as NSURL
+                        
+                        UIApplication.shared.open(url as URL)
+                        
+                },
+                    label: {
+                        Text("Website")
+                            .foregroundColor(.green)
+                            .font(.subheadline)
+                }
+                )
+            }
+            
             
             Spacer()
             
@@ -203,6 +224,6 @@ struct PayView: View {
 
 struct PayView_Previews: PreviewProvider {
     static var previews: some View {
-        PayView(businessId: 1, businessName: "Lemming's")
+        PayView(businessId: 1, businessName: "Lemming's", businessWebsite: "")
     }
 }
